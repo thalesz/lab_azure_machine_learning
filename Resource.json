@@ -1,0 +1,65 @@
+{
+    "apiVersion": "2024-10-01-preview",
+    "id": "/subscriptions/319827f5-af1e-455b-b427-4b1cefad8c2d/resourceGroups/urach/providers/Microsoft.MachineLearningServices/workspaces/labmodelodeprevisao",
+    "name": "labmodelodeprevisao",
+    "type": "microsoft.machinelearningservices/workspaces",
+    "sku": {
+        "name": "Basic",
+        "tier": "Basic"
+    },
+    "kind": "Default",
+    "location": "westus2",
+    "tags": {},
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "e6db6a10-94c0-4af6-a10c-5ef2e8ed0b69",
+        "tenantId": "85d4f116-c738-4911-8450-dbe72c1be484"
+    },
+    "properties": {
+        "friendlyName": "labmodelodeprevisao",
+        "description": "",
+        "storageAccount": "/subscriptions/319827f5-af1e-455b-b427-4b1cefad8c2d/resourceGroups/urach/providers/Microsoft.Storage/storageAccounts/labmodelodepre1449866960",
+        "keyVault": "/subscriptions/319827f5-af1e-455b-b427-4b1cefad8c2d/resourceGroups/urach/providers/Microsoft.Keyvault/vaults/labmodelodepre2587075147",
+        "applicationInsights": "/subscriptions/319827f5-af1e-455b-b427-4b1cefad8c2d/resourceGroups/urach/providers/Microsoft.insights/components/labmodelodepre4953666951",
+        "hbiWorkspace": false,
+        "tenantId": "85d4f116-c738-4911-8450-dbe72c1be484",
+        "imageBuildCompute": null,
+        "provisioningState": "Succeeded",
+        "managedNetwork": {
+            "isolationMode": "Disabled"
+        },
+        "allowRoleAssignmentOnRG": true,
+        "v1LegacyMode": false,
+        "softDeleteEnabled": false,
+        "creationTime": "2024-12-15T17:11:20.067Z",
+        "notebookInfo": {
+            "resourceId": "ea8efc15148e4593b4ac15248dac920d",
+            "fqdn": "ml-labmodelodeprev-westus2-e6280855-118a-4244-8259-f6085946113b.westus2.notebooks.azure.net",
+            "isPrivateLinkEnabled": false,
+            "notebookPreparationError": null
+        },
+        "storageHnsEnabled": false,
+        "workspaceId": "e6280855-118a-4244-8259-f6085946113b",
+        "linkedModelInventoryArmId": null,
+        "privateLinkCount": 0,
+        "publicNetworkAccess": "Enabled",
+        "ipAllowlist": [],
+        "discoveryUrl": "https://westus2.api.azureml.ms/discovery",
+        "mlFlowTrackingUri": "azureml://westus2.api.azureml.ms/mlflow/v1.0/subscriptions/319827f5-af1e-455b-b427-4b1cefad8c2d/resourceGroups/urach/providers/Microsoft.MachineLearningServices/workspaces/labmodelodeprevisao",
+        "serverlessComputeSettings": null,
+        "EnableSoftwareBillOfMaterials": false,
+        "sdkTelemetryAppInsightsKey": "73498d6d-b9a0-4d3b-9a6c-84285b86bea8",
+        "enableDataIsolation": false,
+        "systemDatastoresAuthMode": "accesskey",
+        "enableServiceSideCMKEncryption": false,
+        "provisionNetworkNow": false
+    },
+    "systemData": {
+        "createdAt": "2024-12-15T17:11:20.067Z",
+        "createdBy": "celeste_10_star@hotmail.com",
+        "createdByType": "User",
+        "lastModifiedAt": "2024-12-15T17:11:20.067Z",
+        "lastModifiedBy": "celeste_10_star@hotmail.com",
+        "lastModifiedByType": "User"
+    }
+}
